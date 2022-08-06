@@ -14,7 +14,7 @@ body{
 }
 .container{
     box-shadow: 0 0 10px 5px black;
-    max-width: 50%;
+    max-width: 500px;
 }
 .buttons{
     display: grid;
