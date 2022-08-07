@@ -4,6 +4,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    background-color: aliceblue;
 }
 .display{
     height: 90px;
@@ -15,6 +16,7 @@ body{
 .container{
     box-shadow: 0 0 10px 5px black;
     max-width: 500px;
+    background-color: white;
 }
 .buttons{
     display: grid;
