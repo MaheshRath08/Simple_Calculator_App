@@ -1,7 +1,8 @@
 let display = document.querySelector(".display");
+//converting the object to Array
 let buttons = Array.from(document.getElementsByClassName("button"));
-console.log(buttons)
 
+//main caculator function
 buttons.map( button => {
     button.addEventListener("click", (e)=>{
         switch (e.target.textContent) {
